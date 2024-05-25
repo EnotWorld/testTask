@@ -170,7 +170,6 @@ legend {
   height: 352px;
   position: relative;
   border-radius: 20px;
-  transition: 0.38s ease-in-out;
 }
 .earn__item * {
   z-index: 1;
@@ -188,7 +187,7 @@ legend {
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-  transition: 0.38s ease-in-out;
+  transition: border 0.38s ease-in-out;
 }
 .earn__item:after {
   content: "";
@@ -199,7 +198,7 @@ legend {
   top: 0;
   opacity: 0;
   border-radius: 20px;
-  transition: 0.38s ease-in-out;
+  transition: opacity 0.38s ease-in-out;
   z-index: 0;
 }
 .earn__item:nth-child(1) {
@@ -325,7 +324,7 @@ legend {
   line-height: 16px;
   width: 220px;
   height: 48px;
-  transition: 0.38s ease-in-out;
+  transition: border 0.38s ease-in-out, box-shadow 0.38s ease-in-out;
   position: relative;
 }
 @media (min-width: 992px) {

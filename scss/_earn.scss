@@ -26,7 +26,6 @@
     height: 352px;
     position: relative;
     border-radius: 20px;
-    transition: .38s ease-in-out;
 
     * {
       z-index: 1;
@@ -46,7 +45,7 @@
       linear-gradient(#fff 0 0);
       -webkit-mask-composite: xor;
       mask-composite: exclude;
-      transition: .38s ease-in-out;
+      transition: border .38s ease-in-out;
     }
 
     &:after {
@@ -58,7 +57,7 @@
       top: 0;
       opacity: 0;
       border-radius: 20px;
-      transition: .38s ease-in-out;
+      transition: opacity .38s ease-in-out;
       z-index: 0;
     }
 
@@ -208,7 +207,7 @@
     line-height: 16px;
     width: 220px;
     height: 48px;
-    transition: .38s ease-in-out;
+    transition: border .38s ease-in-out, box-shadow .38s ease-in-out;
     position: relative;
 
     &:before {
