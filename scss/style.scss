@@ -1,21 +1,16 @@
 @import 'mixins';
-@import "header";
 @import "fonts";
 @import "min";
-@import "media";
+
+@import "title";
+
+@import "earn";
+
 
 
 .container {
   @include container;
 }
-
-html {
-  font-family: 'MuseoSansCyrl', sans-serif;
-  font-style: normal;
-}
-//html, body{
-//  overflow-x: hidden;
-//}
 
 
 

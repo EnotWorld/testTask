@@ -6,12 +6,12 @@ $breakpoint-lg: 992px;
 $breakpoint-md: 768px;
 $breakpoint-sm: 576px;
 
-$container-lg: 1690px;
+$container-lg: 1315px;
 $container-md: 720px;
 $container-sm: 540px;
 
 $p: 15px;
-$p-md: 15px;
+$p-md: 12px;
 
 @mixin container {
   width: 100%;
@@ -104,6 +104,15 @@ $breakpoint-hover: 992px;
 @mixin hover {
   @media screen and (min-width: $breakpoint-hover) {
     &:hover {
+      @content
+    }
+  }
+}
+
+$breakpoint-active: 992px;
+@mixin active {
+  @media screen and (min-width: $breakpoint-active) {
+    &:active {
       @content
     }
   }
