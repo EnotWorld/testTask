@@ -1,6 +1,6 @@
 .earn {
   @include fluid(margin-top, 32px, 40px);
-
+  @include fluid(margin-bottom, 32px, 40px);
   &__wrapper {
     .title {
       margin-left: 26px;
@@ -191,7 +191,7 @@
   }
 
   &__button {
-    @include fluid(margin-left,550px,798px);
+    @include fluid(margin-left,670px,798px);
     padding: 12px 28px 12px 16px;
     display: flex;
     gap: 12px;
