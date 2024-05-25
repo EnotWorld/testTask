@@ -391,14 +391,16 @@ legend {
     margin-top: 37px;
   }
   .earn__item-arrow {
-    right: 50%;
-    transform: translateX(50%);
+    right: -29px;
+    top: unset;
+    bottom: -21px;
+    transform: rotate(271deg) scale(-1, 1);
   }
-  .earn__item:nth-child(2) {
-    z-index: 2;
+  .earn__item-img {
+    z-index: 0;
   }
-  .earn__item:nth-child(3) {
-    z-index: 3;
+  .earn__item:before {
+    z-index: 0;
   }
   .earn__bottom {
     display: flex;

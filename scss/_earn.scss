@@ -268,14 +268,16 @@
     }
     &__item {
       &-arrow {
-        right: 50%;
-        transform: translateX(50%);
+        right: -29px;
+        top: unset;
+        bottom: -21px;
+        transform: rotate(271deg) scale(-1, 1);
       }
-      &:nth-child(2) {
-        z-index: 2;
+      &-img {
+        z-index: 0;
       }
-      &:nth-child(3) {
-        z-index: 3;
+      &:before {
+        z-index: 0;
       }
     }
     &__bottom {
